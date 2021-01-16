@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" ng-app="MainApp" ng-controller="MainController as vm">
   <head>
-  	<title>
-  		Andre Nguyen
-  	</title>
+    <title ng-bind="vm.view.title"></title>
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
   </head>  
@@ -23,5 +25,20 @@
         </div>
       </div>
     </header>
+    <div ng-view>
+
+    </div>
+    <script type="text/ng-template" id="home.html">
+
+    </script>
+    <script type="text/ng-template" id="about.html">
+
+    </script>
+    <script type="text/ng-template" id="contact.html">
+
+    </script>
+    <script type="text/ng-template" id="videos.html">
+
+    </script>
   </body>
 </html>
