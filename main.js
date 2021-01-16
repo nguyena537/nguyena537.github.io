@@ -33,9 +33,13 @@
         mainController
     ]);
 
+    app.controller("ContactController", [
+        "$scope",
+        contactController
+    ]);
+
     function mainController($scope, $route, $location) {
         var vm = this;
-        
         let path = localStorage.getItem("path");
         $location.path(path);
         $scope.$on("$routeChangeSuccess", function handleRouteChangeSuccessEvent(evt) {
@@ -43,5 +47,9 @@
                 title: $route.current.title
             }
         });
+    }
+
+    function contactController($scope) {
+        var vm = this;
     }
 }());
