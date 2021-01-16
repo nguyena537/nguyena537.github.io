@@ -54,4 +54,4 @@
     function contactController($scope) {
         var vm = this;
     }
-}());
+}()); 
