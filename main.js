@@ -40,8 +40,10 @@
 
     function mainController($scope, $route, $location) {
         var vm = this;
-        let path = localStorage.getItem("path");
-        $location.path(path);
+        if($location.path() != '/') {
+            let path = localStorage.getItem("path");
+            $location.path(path);
+        }
         $scope.$on("$routeChangeSuccess", function handleRouteChangeSuccessEvent(evt) {
             vm.view = {
                 title: $route.current.title
