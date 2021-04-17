@@ -8,6 +8,7 @@ interface Props {
 const BASE_TITLE = 'Andre Nguyen Piano';
 
 const PageMeta: FC<Props> = ({title}) => {
+    console.log(title);
     return (
         <Helmet title={`${BASE_TITLE} | ${title}`} />
     );

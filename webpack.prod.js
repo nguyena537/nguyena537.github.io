@@ -65,7 +65,8 @@ module.exports = {
         }),
         new CopyPlugin({
             patterns: [
-                { from: "./src/404.html" }
+                { from: "./src/404.html" },
+                { from: ".nojekyll" }
             ]
         })
     ],
