@@ -21,7 +21,6 @@ class Home extends Component<Props> {
         return (
             <Fragment>
                 <PageMeta title={formatMessage(messages.pageTitle)} />
-                
             </Fragment>
         );
     }

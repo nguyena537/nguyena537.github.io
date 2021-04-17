@@ -34,16 +34,6 @@ module.exports = {
                             importLoaders: 2
                         }
                     },
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            postcssOptions: {
-                                plugins: [
-                                    'autoprefixer'
-                                ]
-                            }
-                        }
-                    },
                     "sass-loader",
                 ],
                 include: /\.module/
@@ -56,16 +46,6 @@ module.exports = {
                     },
                     {
                         loader: "css-loader"
-                    },
-                    {
-                        loader: 'postcss-loader',
-                        options: {
-                            postcssOptions: {
-                                plugins: [
-                                    'autoprefixer'
-                                ]
-                            }
-                        }
                     },
                     "sass-loader",
                 ],
