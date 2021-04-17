@@ -66,7 +66,8 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: "./src/404.html" },
-                { from: ".nojekyll" }
+                { from: ".nojekyll" },
+                { from: "./CNAME" }
             ]
         })
     ],
