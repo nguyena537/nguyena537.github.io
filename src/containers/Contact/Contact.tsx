@@ -2,13 +2,13 @@ import React, { Component, Fragment } from 'react';
 import { injectIntl, IntlShape } from 'react-intl';
 
 import PageMeta from '../../components/PageMeta';
-import messages from './Home.messages';
+import messages from './Contact.messages';
 
 interface Props {
     intl: IntlShape;
 };
 
-class Home extends Component<Props> {
+class Contact extends Component<Props> {
     constructor(props) {
         super(props);
     }
@@ -27,4 +27,4 @@ class Home extends Component<Props> {
     }
 };
 
-export default injectIntl(Home);
+export default injectIntl(Contact);
