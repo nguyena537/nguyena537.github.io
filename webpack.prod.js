@@ -13,10 +13,18 @@ module.exports = {
         clean: true
     },
     resolve: {
-        extensions: [".js", ".jsx", ".scss", ".css", ".ts", ".tsx"]
+        extensions: [".js", ".jsx", ".scss", ".css", ".ts", ".tsx", ".png"]
     },
     module: {
         rules: [
+            {
+                test: /\.(png|jpe?g|gif)$/i,
+                use: [
+                    {
+                        loader: 'file-loader'
+                    }
+                ]
+            },
             {
                 test: /\.ts|\.tsx$/,
                 use: ["ts-loader"]

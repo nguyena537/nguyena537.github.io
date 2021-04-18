@@ -4,6 +4,7 @@ import { injectIntl, IntlShape } from 'react-intl';
 import PageMeta from '../../components/PageMeta';
 import messages from './Home.messages';
 import styles from './styles.module.scss';
+import andreImage from './images/PicAndre.png';
 
 interface Props {
     intl: IntlShape;
@@ -24,7 +25,7 @@ class Home extends Component<Props> {
                 <PageMeta title={formatMessage(messages.pageTitle)} />
                     <h1 className={styles.t}>Welcome to Andre's Piano Website!</h1>
                     <div>
-                        <img src="images/PicAndre.png" alt="Picture of Andre"></img>
+                        <img src={andreImage} alt="Picture of Andre"></img>
                     </div>
             </Fragment>
         );
