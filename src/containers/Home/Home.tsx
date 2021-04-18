@@ -24,7 +24,7 @@ class Home extends Component<Props> {
                 <PageMeta title={formatMessage(messages.pageTitle)} />
                     <h1 className={styles.t}>Welcome to Andre's Piano Website!</h1>
                     <div>
-                        <img src="images.PicAndre.png" alt="Picture of Andre"></img>
+                        <img src="images/PicAndre.png" alt="Picture of Andre"></img>
                     </div>
             </Fragment>
         );
