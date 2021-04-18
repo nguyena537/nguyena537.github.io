@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(110, 106, 106);
+}
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.video {
+    margin-top: 1px;
+}
+
+.vidT1 {
+    margin-top: 20px;
+    color: white;
+}
+.vidT {
+    margin-top: 75px;
+    color: white;
+}
+
