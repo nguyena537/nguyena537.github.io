@@ -23,7 +23,7 @@ class Contact extends Component<Props> {
             <Fragment>
                 <PageMeta title={formatMessage(messages.pageTitle)} />
                     <h1 className={styles.t}>Contact Andre</h1>
-                    <h3 className={styles.info}>Email: andre.nguyen2368@gmail.com</h3>
+                    <h3 className={styles.info}>Email: <a href="mailto:andre.nguyen2368@gmail.com">andre.nguyen2368@gmail.com</a></h3>
                     <h3 className={styles.message}>Feel free to contact me at this email any time!</h3>
             </Fragment>
         );
