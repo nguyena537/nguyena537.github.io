@@ -13,6 +13,7 @@ class App extends Component {
             <Fragment>
                 <NavBar />
                 <Switch>
+                    <Route exact path="/" component={Home} />
                     <Route exact path="/home" component={Home} />
                     <Route exact path="/videos" component={Videos} />
                     <Route exact path="/contact" component={Contact} />
@@ -23,4 +24,4 @@ class App extends Component {
     }
 };
 
-export default App;
+export default App; 
