@@ -1,0 +1,129 @@
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    background-color: #d2cfcf;
+    width: 550px;
+    position: fixed;
+    top: 20px;
+    z-index: 100;
+    padding: 10px;
+    border-radius: 10px;
+    transition: padding 0.5s;
+}
+
+.nav:hover {
+    padding: 15px;
+}
+
+.nav-button {
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.nav-button:hover {
+    background-color: white;
+}
+
+
+.home {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-me {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.home-description {
+    font-size: 30px;
+    font-weight: 500;
+    width: 500px;
+}
+
+.experience-sections, .education-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.section {
+    width: 350px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    transition: padding 0.5s, background-color 0.5s ease; 
+}
+
+.section:hover {
+    background-color: #d3d4d4;
+    padding: 25px;
+}
+
+.section-title {
+
+}
+
+.section-location, .section-date {
+    
+}
+
+.section-bullet {
+    text-align: left;
+}
+
+.section-image-container {
+    text-align: center;
+}
+
+.section-image {
+    width: 300px;
+}
+
+.education-section {
+    width: 700px;
+}
+
+.interests-sections {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.interests-section {
+    text-align: center;
+}
+
+#footer {
+    background-color: white;
+    margin-top: 50px;
+    
+}
+
+#footer-logos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    max-width: 50px;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+}
