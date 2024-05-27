@@ -11,8 +11,10 @@ import Experience from './components/Experience.js';
 import Interests from './components/Interests.js';
 import Footer from './components/Footer.js';
 import Section from './components/Section.js';
+import ClickMeButton from './components/ClickMeButton.js';
+import HideClickMeButton from './components/HideClickMeButton.js';
 
-export {Navbar, Home, About, Education, Experience, Interests, Footer, Section};
+export {Navbar, Home, About, Education, Experience, Interests, Footer, Section, ClickMeButton, HideClickMeButton};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

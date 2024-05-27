@@ -3,7 +3,7 @@ import { Section } from '../index.js';
 
 export default function Experience() {
     return (
-        <div className="experience" id="experience">
+        <div className="experience part" id="experience">
             <h1>My Experience</h1>
             <div className="experience-sections" id="experience">
                 <Section

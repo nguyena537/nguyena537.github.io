@@ -6,7 +6,7 @@ import videogames from "../images/videogames.jpg";
 
 export default function Interests() {
     return (
-        <div className="interests" id="interests">
+        <div className="interests part" id="interests">
             <h1>My Interests</h1>
             <div className="interests-sections">
                 <Section
